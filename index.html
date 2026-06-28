@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4 - Form Validation</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <h2 class="logo">DecodeLabs</h2>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#form">Register</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Form Design & Validation</h1>
+
+        <p>
+            Create secure and user-friendly forms
+            using HTML, CSS and JavaScript.
+        </p>
+
+        <a href="#form" class="btn">
+            Get Started
+        </a>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="images/hero.jpg" alt="">
+    </div>
+
+</section>
+
+<section id="form" class="form-section">
+
+    <div class="form-container">
+        <img src="images/form-banner.jpg"
+         alt="Form Banner"
+         class="form-banner">
+
+        <h2>Registration Form</h2>
+
+        <form id="registerForm">
+
+            <input
+            type="text"
+            id="name"
+            placeholder="Full Name">
+
+            <input
+            type="email"
+            id="email"
+            placeholder="Email Address">
+            <small id="emailError"></small>
+
+            <input
+            type="tel"
+            id="phone"
+            placeholder="Phone Number">
+
+            <input
+            type="password"
+            id="password"
+            placeholder="Password">
+            <small id="passwordStrength"></small>
+
+            <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm Password">
+            <div class="password-box">
+
+    <input
+    type="password"
+    id="password"
+    placeholder="Password">
+
+    <span id="togglePassword">
+        👁
+    </span>
+
+</div>
+
+            <button type="submit">
+                Submit
+            </button>
+
+        </form>
+
+        <p id="errorMessage"></p>
+
+        <p id="successMessage"></p>
+
+    </div>
+
+</section>
+
+<footer id="contact">
+
+    <p>
+        © 2026 DecodeLabs Project 4
+    </p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
